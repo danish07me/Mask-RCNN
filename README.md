@@ -1,2 +1,4 @@
 # Mask-RCNN
-Instance segmentation of Cows using Mask RCNN
+This is an implementation of Mask R-CNN on Python 3, Keras, and TensorFlow. 
+## Abstract
+This paper presents a state-of-art instance segmentation mask RCNN algorithm to train and build a model on a very challenging cow dataset that is captured during the winter season. The dataset poses many challenges such as overlapping of cows, partial occlusion, similarity between cows and background, and bad lightening. An attempt is made to improve the accuracy of the segmenter and the performance is measured after fine tuning the baseline model. The experiment result shows that fine tuning the mask RCNN algorithm helps in significantly improving the accuracy of instance segmentation of cows. this work is a contribution towards the real time monitoring of cows in cattle farm environment with the purpose of behavioural analysis of the cattle.
