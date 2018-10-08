@@ -15,7 +15,7 @@ import model as modellib
 #import visualize
 from model import log
 import argparse
-#import coco
+import coco
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 import pickle
 from skimage.transform import resize
