@@ -21,9 +21,9 @@ import IPython.display
 import utils
 
 
-############################################################
+###################################################
 #  Visualization
-############################################################
+##################################################
 
 def display_images(images, titles=None, cols=4, cmap=None, norm=None,
                    interpolation=None):
