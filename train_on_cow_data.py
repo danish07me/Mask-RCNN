@@ -25,7 +25,6 @@ MODEL_DIR = os.path.join(root_dir, 'logs/onlycoco')
 pretrained_model = os.path.join(MODEL_DIR, "cows20180815T0117/mask_rcnn_cows_0005.h5")
 #pretrained_model = os.path.join(MODEL_DIR, "cows20180709T1147/mask_rcnn_cows_0003.h5")
 #new_model = os.path.join(MODEL_DIR, "cows20180109T1344/mask_rcnn_cows_0002.h5")
-#new_model = os.path.join(MODEL_DIR,"cows20180106T1151/mask_rcnn_cows_0002.h5")
 
 def natural_sort(l):
     convert = lambda text: int(text) if text.isdigit() else text.lower()
@@ -45,7 +44,6 @@ class CowConfig(Config):
    RPN_ANCHOR_SCALES = (16,32,64,128,256)
    TRAIN_ROIS_PER_IMAGE = 32
 
-   # roughly 5000 divides 4, the mini-batch size, I think...
    STEPS_PER_EPOCH = 5000
    VALIDATION_STEPS = 5
 
@@ -176,7 +174,6 @@ if __name__ == '__main__':
          val_dataset.prepare()
          print ('train', train_dataset.image_ids)
          print ('val', val_dataset.image_ids)
-         #############################################
          # OK train model#############################
          # HEADS ONLY! same learning rate as in config
          #############################################
