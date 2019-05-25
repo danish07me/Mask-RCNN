@@ -40,7 +40,6 @@ MODEL_DIR = os.path.join(ROOT_DIR, 'logs')
 #IMAGE_DIR = '/hdd5/home/ICTDOMAIN/453615/NewData/total_cows_large_clean/validation_set_clean'
 IMAGE_DIR = '\\Users\\Danish\\Mask_RCNN\\cow_imgs_val_large1'
 #IMAGE_DIR = '/hdd5/home/ICTDOMAIN/453615/cow_imgs_val_large'
-#IMAGE_DIR = '/hdd5/home/ICTDOMAIN/453615/5_cow'
 #SAVE_DIR = 'res_test_allvoc_mrcnn_ft'
 #SAVE_DIR = 'pascal_imgs_mrcnn'
 SAVE_DIR = 'out_results_noft_crop_imgs'

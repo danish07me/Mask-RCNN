@@ -174,7 +174,6 @@ if __name__ == '__main__':
          val_dataset.prepare()
          print ('train', train_dataset.image_ids)
          print ('val', val_dataset.image_ids)
-         #############################################
          # OK train model#############################
          # HEADS ONLY! same learning rate as in config
          #############################################
